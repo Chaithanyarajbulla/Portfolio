@@ -719,13 +719,15 @@ footer {
   table {
   width: 100%;
   color: aliceblue;
-  font-size: 13.4px;
+  font-size: 14px;
   padding-left: 0px;
   margin-top: 19px;
-  margin-left: 14px;
+  margin-left: 5px;
   border-collapse: collapse;
 }
-
+#about {
+      padding: 5px;
+}
   .scroll {
     position: relative;
     display: flex;
@@ -749,18 +751,19 @@ footer {
   }
 
   .profile-container-ch {
-    background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(10px);
-    display: flex;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 19rem;
-    margin-left:0px;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+        display: flex;
+        padding: 18px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 326px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
   }
 
   #about {
