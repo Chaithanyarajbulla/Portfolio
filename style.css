@@ -756,14 +756,14 @@ footer {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 19.5rem;
+    width: 18rem;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
   }
 
   #about {
-    height: 120vh;
+    height: 115vh;
     display: block;
   }
   .work-img h3{
@@ -793,8 +793,7 @@ footer {
   .self-intro {
     background-repeat: no-repeat;
     padding: 15px;
-    display: flex
-;
+    display: flex;
     align-items: center;
     background: darkcyan;
     justify-content: space-between;
