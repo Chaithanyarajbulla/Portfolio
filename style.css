@@ -717,7 +717,7 @@ footer {
     display: block;
   }
 
-  nav ul .show {
+  nav ul.show {
     transform: translateX(0);
   }
 
