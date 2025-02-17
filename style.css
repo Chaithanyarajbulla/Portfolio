@@ -103,19 +103,20 @@ nav ul li {
 
 /* Responsive */
 @media screen and (max-width: 768px) {
-  nav ul {
-    display: none;
-    /* Hide menu on small screens */
-  }
+
+
+
 
   .burger-menu {
     display: block;
   }
 
 }
-.certificate-msd h1{
+
+.certificate-msd h1 {
   text-align: center;
 }
+
 /* profile card*/
 /* Profile Card Styling */
 #about {
@@ -127,6 +128,7 @@ nav ul li {
   background-repeat: no-repeat;
   background-image: url(bokeh-abstract-blurred-background-light-leaks_58702-627.jpg);
 }
+
 .container {
   position: relative;
   bottom: 0px;
@@ -154,20 +156,23 @@ nav ul li {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   align-items: center;
 }
-.work-img{
+
+.work-img {
   width: 30%;
 }
+
 .profile-card {
   text-align: center;
 }
 
-.work-img h3{
+.work-img h3 {
   font-size: 25px;
   text-align: center;
   color: white;
   position: relative;
   left: 30rem;
 }
+
 .profile-container-ch {
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
@@ -176,7 +181,6 @@ nav ul li {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 77rem;
   margin-left: auto;
   align-items: center;
   margin-right: auto;
@@ -191,21 +195,23 @@ nav ul li {
   object-fit: cover;
 
 }
-.work-img img{
+
+.work-img img {
   width: 116%;
   height: 372px;
 }
-.self-intro{
+
+.self-intro {
   background-repeat: no-repeat;
   padding: 15px;
-  display: flex
-;
+  display: flex;
   align-items: center;
   background: darkcyan;
   justify-content: space-between;
 
 
 }
+
 table {
   width: 100%;
   color: aliceblue;
@@ -416,11 +422,13 @@ td {
 .Visual-graph h1 span {
   color: #8026a4;
 }
-.chaithanyarajbula-sow h1{
-text-align: center;
-color: #ffffff;
-font-size: 25px;
+
+.chaithanyarajbula-sow h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
 }
+
 .Visual-graph {
   padding: 50px;
 }
@@ -479,36 +487,39 @@ font-size: 25px;
 }
 
 .btn-dwn {
-  display: flex
-  ;
-          padding: 10px 20px;
-          color: #ffffff;
-          background: #e2e2e26b;
-          border-radius: 5px;
-          margin-left: auto;
-          font-size: 13px;
-          margin-right: auto;
-          text-transform: uppercase;
-          font-weight: bold;
-          width: 40%;
-          justify-content: center;
+  display: flex;
+  padding: 10px 20px;
+  color: #ffffff;
+  background: #e2e2e26b;
+  border-radius: 5px;
+  margin-left: auto;
+  font-size: 13px;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 40%;
+  justify-content: center;
 }
+
 .projects-section {
   background: linear-gradient(135deg, rgb(220 220 220), rgb(250, 208, 196));
   margin: auto;
 }
+
 .projects-section h2 {
   margin-bottom: 20px;
   font-size: 2rem;
   text-align: center;
   color: darkcyan;
 }
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
 }
+
 .project-card {
   background: #fff;
   border-radius: 10px;
@@ -516,25 +527,31 @@ font-size: 25px;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
 }
+
 .project-card:hover {
   transform: translateY(-5px);
 }
+
 .project-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
+
 .project-card .content {
   padding: 15px;
 }
+
 .project-card h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
+
 .project-card p {
   font-size: 1rem;
   color: #555;
 }
+
 .certificate-detais {
   background: #fff;
   margin: 1em auto;
@@ -621,29 +638,35 @@ font-size: 25px;
 }
 
 /*social media*/
-.socials {
+
+.social-icons {
   display: flex;
-  position: fixed;
-  right: 0%;
-  width: 35px;
-  /* height: 221px; */
-  flex-direction: column;
   justify-content: center;
-  align-content: space-around;
-  align-items: center;
-  bottom: 46%;
-
+  gap: 15px;
+  margin-top: 20px;
 }
 
-.socials img {
-  height: 40px;
-  width: 39px;
+.social-icons a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.socicon {
-  width: 2rem;
-  height: 2rem;
+.social-icons a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
 }
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+
+
 
 /*footer*/
 footer {
@@ -694,7 +717,7 @@ footer {
     display: block;
   }
 
-  nav ul.show {
+  nav ul .show {
     transform: translateX(0);
   }
 
@@ -716,18 +739,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  table {
-  width: 100%;
-  color: aliceblue;
-  font-size: 14px;
-  padding-left: 0px;
-  margin-top: 19px;
-  margin-left: 5px;
-  border-collapse: collapse;
-}
-#about {
-      padding: 5px;
-}
+
   .scroll {
     position: relative;
     display: flex;
@@ -751,49 +763,51 @@ footer {
   }
 
   .profile-container-ch {
-        background-color: rgba(0, 0, 0, 0.2);
-        backdrop-filter: blur(10px);
-        display: flex;
-        padding: 18px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        width: 326px;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: min-content;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
   }
 
   #about {
-    height: 115vh;
+
     display: block;
   }
-  .work-img h3{
+
+  .work-img h3 {
     font-size: 25px;
     text-align: center;
     color: white;
     position: relative;
     left: 0;
   }
+
   .work-img {
     width: 70%;
-}
+  }
+
   .btn-dwn {
     display: flex;
     padding: 10px 20px;
     color: #ffffff;
     background: #e2e2e26b;
-   border-radius: 5px;
-            margin-left: auto;
-            font-size: 13px;
-            margin-right: auto;
-            text-transform: uppercase;
-            font-weight: bold;
-            width: 45%;
-            justify-content: center;
+    border-radius: 5px;
+    margin-left: auto;
+    font-size: 13px;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 45%;
+    justify-content: center;
   }
+
   .self-intro {
     background-repeat: no-repeat;
     padding: 15px;
@@ -802,5 +816,11 @@ footer {
     background: darkcyan;
     justify-content: space-between;
     flex-direction: column;
+  }
 }
+
+@media (min-width:460x) {
+  table {
+    font-size: 15px;
+  }
 }
