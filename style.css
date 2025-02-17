@@ -88,6 +88,19 @@ nav a:hover {
   border-bottom: 2px solid var(--secondary-color);
 }
 
+.txt-sow-logo {
+  font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.txt-sow-logo:hover {
+  text-decoration: none;
+}
+
 nav ul li {
   font-weight: var(--bold-font);
 }
@@ -130,11 +143,11 @@ nav ul li {
 }
 
 .container {
-  position: relative;
-  bottom: 0px;
-  left: 20px;
   font-size: 25px;
+  display: flex;
   color: antiquewhite;
+  flex-direction: column;
+  align-items: center;
 }
 
 .matter {
@@ -642,20 +655,25 @@ td {
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 5px;
   margin-top: 20px;
+  position: fixed;
+  right: 0.5%;
+  bottom: 10%;
+  cursor: pointer;
+  flex-direction: column;
 }
 
 .social-icons a {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 2rem;
+  height: 2rem;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .social-icons a img {
-  width: 50px;
-  height: 50px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -819,16 +837,18 @@ footer {
   }
 }
 
-@media screen and  (max-width:460px) {
+@media screen and (max-width:460px) {
   table {
     font-size: 13px;
   }
+
   .profile-pic {
     width: 200px;
     height: 200px;
   }
 }
-@media screen and  (max-width:370px) {
+
+@media screen and (max-width:370px) {
   table {
     font-size: 10px;
   }
