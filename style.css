@@ -819,8 +819,17 @@ footer {
   }
 }
 
-@media (min-width:460x) {
+@media screen and  (max-width:460px) {
   table {
-    font-size: 15px;
+    font-size: 13px;
+  }
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and  (max-width:370px) {
+  table {
+    font-size: 10px;
   }
 }
