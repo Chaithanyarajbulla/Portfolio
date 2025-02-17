@@ -381,7 +381,7 @@ td {
 .scroll {
   position: relative;
   display: flex;
-  width: 1050px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -528,9 +528,11 @@ td {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: auto auto;
   gap: 20px;
   padding: 20px;
+  justify-items: center;
+  justify-content: center;
 }
 
 .project-card {
@@ -538,7 +540,8 @@ td {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3sease-in-out;
+  width: min-content;
 }
 
 .project-card:hover {
@@ -546,9 +549,9 @@ td {
 }
 
 .project-card img {
-  width: 100%;
+  /* width: 100%; */
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .project-card .content {
@@ -834,6 +837,13 @@ footer {
     background: darkcyan;
     justify-content: space-between;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width:590px) {
+  .projects-container {
+    grid-template-columns: auto;
+
   }
 }
 
