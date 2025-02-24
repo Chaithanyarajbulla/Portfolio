@@ -120,7 +120,6 @@ document
 
     try {
       const response = await fetch("/api/send-email.js", {
-        // Ensure API path is correct
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),
