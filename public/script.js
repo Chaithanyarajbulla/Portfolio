@@ -119,7 +119,7 @@ document
     responseMessage.style.color = "blue";
 
     try {
-      const response = await fetch("/api/send-email", {
+      const response = await fetch("/api/send-email.js", {
         // Ensure API path is correct
         method: "POST",
         headers: { "Content-Type": "application/json" },
