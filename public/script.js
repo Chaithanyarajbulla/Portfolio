@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
-const textArray = ["Web Developer", "Front-end", "Video-Editor", "learning code is", "hard", "Fun"];
+const textArray = ["Software Developer"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text
@@ -139,3 +139,4 @@ document
       responseMessage.style.color = "red";
     }
   });
+
